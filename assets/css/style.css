@@ -33,12 +33,12 @@ body::before {
 }
 
 a {
-  color: #ff0000;
+  color: #26ade7;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ff3333;
+  color: #28baf9;
   text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ff0000;
+  background: #26ade7;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -122,7 +122,7 @@ h6 {
   width: 100px;
   padding: 15px 0;
   background: rgba(255, 255, 255, 0.12);
-  border-top: 5px solid #ff0000;
+  border-top: 5px solid #26ade7;
 }
 
 #header .countdown div h3 {
@@ -191,7 +191,7 @@ h6 {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ff0000;
+  background: #26ade7;
   color: #fff;
   transition: 0.3s;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -334,7 +334,7 @@ section {
   top: 12px;
   position: absolute;
   font-size: 20px;
-  color: #ff0000;
+  color: #26ade7;
 }
 
 .about .content p:last-child {
@@ -400,14 +400,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #ff0000;
+  background: #26ade7;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #ff0000;
+  background: #26ade7;
   color: #fff;
 }
 
@@ -497,7 +497,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ff0000;
+  background: #26ade7;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -505,7 +505,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ff3333;
+  background: #28baf9;
 }
 
 @-webkit-keyframes animate-loading {
@@ -551,5 +551,5 @@ section {
 }
 
 #footer .credits a {
-  color: #ff3333;
+  color: #28baf9;
 }
