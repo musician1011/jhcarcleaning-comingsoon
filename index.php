@@ -1,3 +1,14 @@
+<?php
+if ($_GET['formSend'] !== null){
+    $isSend = $_GET['formSend'];
+    $page = $_SERVER['PHP_SELF'];
+    $sec = "5";
+    header("Refresh: $sec; url=$page");
+}else {
+    $isSend = false;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -74,10 +85,10 @@
 
         <div class="row content">
           <div class="col-lg-6">
-            <h2>Eum ipsam laborum deleniti velitena</h2>
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
+            <h2>Kom zeker terug!</h2>
+            <h3>Binnenkort zie je hier onze website in een nieuw jasje.</h3>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
+          <!--<div class="col-lg-6 pt-4 pt-lg-0">
             <p>
               Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
@@ -96,7 +107,8 @@
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section>-->
+    <!-- End About Us Section -->
 
     <!-- ======= Contact Us Section ======= -->
     <section id="contact" class="contact">
@@ -113,13 +125,19 @@
             <div class="info-wrap">
               <div class="row">
 
-                <div class="col-lg-6 info mt-6 mt-lg-0">
+              <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="bi bi-whatsapp"></i>
+                  <h4>Whatsapp:</h4>
+                  <p><a href="https://wa.me/+32499755677">+32 499 75 56 77</a></p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
                   <p><a href="mailto:info@jh-carcleaning.be">info@jh-carcleaning.be</a></p>
                 </div>
 
-                <div class="col-lg-6 info mt-6 mt-lg-0">
+                <div class="col-lg-4 info mt-4 mt-lg-0">
                   <i class="bi bi-phone"></i>
                   <h4>Bel:</h4>
                   <p><a href="tel:+32499755677">+32 499 75 56 77</a></p>
@@ -168,7 +186,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>ComingSoon</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Photogenica</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->

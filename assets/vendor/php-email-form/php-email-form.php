@@ -228,7 +228,7 @@ class PHP_Email_Form {
 
       $mail->send();
 
-      header ('Location: https://www.woodhouse-rouwbegeleiding.be/contact?formSend=true');
+      header ('Location: http://willemdev2.innovisia.nl?formSend=true');
     } catch (Exception $e) {
       //return 'Mailer Error: ' . $mail->ErrorInfo;
     }
