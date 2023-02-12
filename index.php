@@ -16,8 +16,8 @@ if ($_GET['formSend'] !== null){
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>JH Carcleaning - Under construction </title>
-  <meta content="" name="description">
-  <meta content="Carcleaning, under construction, in onderhoud, onderhoud" name="keywords">
+  <meta content="Onze website is momenteel in onderhoud. Kom snel eens terug en zie JH Carcleaning in een nieuw jasje!" name="description">
+  <meta content="Carcleaning, under construction, in onderhoud, onderhoud, Vlaanderen, carwash, car, maintenance, under construction" name="keywords">
   <meta content="Willem Devriendt" name="Author">
 
   <!-- Favicons -->
@@ -186,7 +186,7 @@ if ($_GET['formSend'] !== null){
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Photogenica</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span><a href="photogenica.be" target="blank" style="color:#fff;">Photogenica</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
