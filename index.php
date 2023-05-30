@@ -50,7 +50,7 @@ if ($_GET['formSend'] !== null){
 
       <h1>Excuses voor het ongemak!</h1>
       <h2>Deze website is tijdelijk offline, er wordt hard gewerkt aan vernieuwingen.</h2>
-      <div class="countdown d-flex justify-content-center" data-count="2023/03/31">
+      <div class="countdown d-flex justify-content-center" data-count="2023/06/30">
         <div>
           <h3>%d</h3>
           <h4>Dagen</h4>
