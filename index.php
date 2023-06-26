@@ -21,8 +21,8 @@ if ($_GET['formSend'] !== null){
   <meta content="Willem Devriendt" name="Author">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="#" rel="icon">
+  <link href="#" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
@@ -50,7 +50,7 @@ if ($_GET['formSend'] !== null){
 
       <h1>Excuses voor het ongemak!</h1>
       <h2>Deze website is tijdelijk offline, er wordt hard gewerkt aan vernieuwingen.</h2>
-      <div class="countdown d-flex justify-content-center" data-count="2023/06/30">
+      <div class="countdown d-flex justify-content-center" data-count="2023/05/31">
         <div>
           <h3>%d</h3>
           <h4>Dagen</h4>
@@ -70,8 +70,8 @@ if ($_GET['formSend'] !== null){
       </div>
 
       <div class="social-links text-center">
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.facebook.com/JHProfessionalCarCleaning" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://be.linkedin.com/in/jh-car-cleaning-bvba-b9256292" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
